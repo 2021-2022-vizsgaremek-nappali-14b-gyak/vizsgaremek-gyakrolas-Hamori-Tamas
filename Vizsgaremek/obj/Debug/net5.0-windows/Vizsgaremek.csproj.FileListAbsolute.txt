@@ -1,0 +1,3 @@
+C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\obj\Debug\net5.0-windows\Vizsgaremek.csprojAssemblyReference.cache
+C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\obj\Debug\net5.0-windows\Vizsgaremek_MarkupCompile.cache
