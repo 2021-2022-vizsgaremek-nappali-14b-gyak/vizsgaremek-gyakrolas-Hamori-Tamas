@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek2\\Vizsgaremek\\Vizsgaremek.csproj": {
-      "version": "1.0.0",
+      "version": "0.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek2\\Vizsgaremek\\Vizsgaremek.csproj",
         "projectName": "Vizsgaremek",
@@ -58,6 +58,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }
