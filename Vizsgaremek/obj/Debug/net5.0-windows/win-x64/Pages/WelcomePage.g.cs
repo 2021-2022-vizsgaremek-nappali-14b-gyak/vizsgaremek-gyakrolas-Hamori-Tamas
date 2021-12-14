@@ -61,7 +61,7 @@ namespace Vizsgaremek.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Vizsgaremek_3oxlzxzm_wpftmp;component/pages/welcomepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Vizsgaremek_k5kogkuz_wpftmp;component/pages/welcomepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\WelcomePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

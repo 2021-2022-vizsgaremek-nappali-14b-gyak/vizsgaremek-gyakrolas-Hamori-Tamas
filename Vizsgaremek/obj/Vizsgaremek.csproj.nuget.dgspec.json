@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek2\\Vizsgaremek\\Vizsgaremek.csproj": {}
+    "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek\\Vizsgaremek\\Vizsgaremek.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek2\\Vizsgaremek\\Vizsgaremek.csproj": {
+    "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek\\Vizsgaremek\\Vizsgaremek.csproj": {
       "version": "0.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek2\\Vizsgaremek\\Vizsgaremek.csproj",
+        "projectUniqueName": "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek\\Vizsgaremek\\Vizsgaremek.csproj",
         "projectName": "Vizsgaremek",
-        "projectPath": "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek2\\Vizsgaremek\\Vizsgaremek.csproj",
+        "projectPath": "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek\\Vizsgaremek\\Vizsgaremek.csproj",
         "packagesPath": "C:\\Users\\sz0hamtam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek2\\Vizsgaremek\\obj\\",
+        "outputPath": "C:\\Users\\sz0hamtam\\Documents\\Vizsgaremek\\Vizsgaremek\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sz0hamtam\\AppData\\Roaming\\NuGet\\NuGet.Config",
