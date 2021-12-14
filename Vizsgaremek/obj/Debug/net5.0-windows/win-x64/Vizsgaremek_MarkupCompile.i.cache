@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\App.xaml
-2-689652381
+31430010578
 
-7-1099473508
+8-983740603
 193-1891726104
-Pages\WelcomePage.xaml;Views\MainWindow.xaml;
+Pages\ProgramVersion.xaml;Pages\WelcomePage.xaml;Views\MainWindow.xaml;
 
-True
+False
 
