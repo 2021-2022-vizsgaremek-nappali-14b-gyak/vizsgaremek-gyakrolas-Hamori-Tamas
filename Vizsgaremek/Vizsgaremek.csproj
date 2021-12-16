@@ -14,6 +14,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Icons\backicon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Icons\exit.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -27,6 +31,12 @@
     <Folder Include="Validations\" />
     <Folder Include="Resources\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\backicon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

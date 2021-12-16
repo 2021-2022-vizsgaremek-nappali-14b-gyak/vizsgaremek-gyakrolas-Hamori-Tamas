@@ -22,10 +22,9 @@ namespace Vizsgaremek
             mainWindow.PageContent.Children.Add(userControl);
         }
 
-        public static void Navigation(Page userPage)
+        public static void NavigationToFullScreen(Page userPage)
         {
-            mainWindow.PageContent.Children.Clear();
-            mainWindow.PageContent.Children.Add(userPage);
+            mainWindow.Content = userPage;
         }
     }
 }

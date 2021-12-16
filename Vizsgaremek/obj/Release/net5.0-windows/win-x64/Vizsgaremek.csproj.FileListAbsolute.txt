@@ -48,3 +48,5 @@ C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\obj\Release\net5.0-windows\
 C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\obj\Release\net5.0-windows\win-x64\ref\Vizsgaremek.dll
 C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\obj\Release\net5.0-windows\win-x64\Vizsgaremek.pdb
 C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\obj\Release\net5.0-windows\win-x64\Vizsgaremek.genruntimeconfig.cache
+C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\obj\Release\net5.0-windows\win-x64\Pages\ProgramVersion.g.cs
+C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\obj\Release\net5.0-windows\win-x64\Pages\ProgramVersion.baml
