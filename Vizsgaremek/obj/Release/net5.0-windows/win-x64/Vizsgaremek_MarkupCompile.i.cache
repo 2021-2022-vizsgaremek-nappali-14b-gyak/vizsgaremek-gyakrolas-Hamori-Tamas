@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\obj\Release\net5.0-windows\win-x64\
+J:\Gyuris Csaba\Vizsgaremek gyak\Vizsgaremek\obj\Release\net5.0-windows\win-x64\
 Vizsgaremek
 none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
-C:\Users\sz0hamtam\Documents\Vizsgaremek\Vizsgaremek\App.xaml
+J:\Gyuris Csaba\Vizsgaremek gyak\Vizsgaremek\App.xaml
 2-689652381
 
 7-1750373885
 193-1891726104
 Pages\WelcomePage.xaml;Views\MainWindow.xaml;
 
-False
+True
 

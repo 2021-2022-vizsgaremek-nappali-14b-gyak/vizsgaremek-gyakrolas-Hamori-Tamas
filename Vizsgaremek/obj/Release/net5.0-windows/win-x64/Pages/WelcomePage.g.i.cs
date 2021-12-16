@@ -61,7 +61,7 @@ namespace Vizsgaremek.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Vizsgaremek;component/pages/welcomepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Vizsgaremek;V0.0.1.0;component/pages/welcomepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\WelcomePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
