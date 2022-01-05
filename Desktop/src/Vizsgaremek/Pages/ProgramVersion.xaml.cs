@@ -29,7 +29,6 @@ namespace Vizsgaremek.Pages
             InitializeComponent();
             ProgramVersionViewModel programVersionViewModel = new ProgramVersionViewModel();
             this.DataContext = programVersionViewModel;
-
         }
 
         // Vissza ikonra kattintva visszatér a nyitóoldalra
