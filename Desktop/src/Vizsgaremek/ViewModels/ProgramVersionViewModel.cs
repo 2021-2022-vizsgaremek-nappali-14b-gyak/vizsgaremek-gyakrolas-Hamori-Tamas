@@ -24,39 +24,16 @@ namespace Vizsgaremek.ViewModels
                 Version = value;
             }
         }
-        public string Company
-        {
-            get
-            {
-                return programInfo.Company.ToString();
-            }
-            set
-            {
-                Company = value;
-            }
-        }
 
-        public string Description
+        public string Authors
         {
             get
             {
-                return programInfo.Description.ToString();
+                return programInfo.Authors.ToString();
             }
             set
             {
-                Description = value;
-            }
-        }
-
-        public string Title
-        {
-            get
-            {
-                return programInfo.Title.ToString();
-            }
-            set
-            {
-                Title = value;
+                Authors = value;
             }
         }
 
