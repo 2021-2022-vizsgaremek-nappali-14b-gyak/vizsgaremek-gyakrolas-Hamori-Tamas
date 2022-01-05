@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using System.Reflection;
 
 namespace Vizsgaremek.Models
@@ -59,9 +58,9 @@ namespace Vizsgaremek.Models
 
         public ProgramInfo(string title, string description, string company)
         {
-            this.Title = title;
-            this.Description = description;
-            this.Company = company;
+            this.title = title;
+            this.description = description;
+            this.company = company;
         }
     }
 }
