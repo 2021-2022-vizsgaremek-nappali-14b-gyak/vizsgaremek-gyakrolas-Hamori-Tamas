@@ -30,6 +30,7 @@ namespace Vizsgaremek
         {
             mainWindowViewModel = new MainWindowViewModel();
             databaseSourceViewModel = new DatabaseSourceViewModel();
+            mainWindowViewModel.SelectedSource = databaseSourceViewModel.DisplayedDatabaseSource;
             InitializeComponent();
             this.DataContext = mainWindowViewModel;
             // Statikus osztály a Navigate
@@ -62,7 +63,7 @@ namespace Vizsgaremek
                         break;
                     case "lviDatabaseSourceSelection":
                         DatabaseSourcePage databaseSourcePage = new DatabaseSourcePage(databaseSourceViewModel);
-                        Navigate.Navigation(databaseSourcePage);
+                        Navigate.Navigation(databaseSourcePage); 
                         break;
                     case "lviProgramVersion":
                         ProgramVersion programVersion = new ProgramVersion();
