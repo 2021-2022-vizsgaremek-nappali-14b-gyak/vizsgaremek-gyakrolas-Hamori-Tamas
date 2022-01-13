@@ -5,18 +5,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Vizsgaremek.Repositories;
+using Vizsgaremek.Models;
 
 namespace Vizsgaremek.ViewModels
 {
-    class DatabaseSourceViewModel
+    public class DatabaseSourceViewModel
     {
-        private ObservableCollection<string> displayedDatabaseSource;
+        private ObservableCollection<string> displayedDatabaseSources;
         private string selectedDatabaseSource;
+        private string displayedDatabaseSource;
+        private DbSource dbSource;
         DatabaseSources repoDatabaseSources;
 
-        public ObservableCollection<string> DisplayedDatabaseSource
+        public ObservableCollection<string> DisplayedDatabaseSources
         {
-            get => displayedDatabaseSource;
+            get => displayedDatabaseSources;
         }
         public string SelectedDatabaseSource
         {
@@ -24,10 +27,49 @@ namespace Vizsgaremek.ViewModels
             set => selectedDatabaseSource = value;
         }
 
+        public DbSource DbSource
+        {
+            get
+            {
+                // TDD fejlesztés
+                // return DbSource.NONE;
+                if (selectedDatabaseSource == "localhost")
+                {
+                    return DbSource.LOCALHOST;
+                }
+                else if (selectedDatabaseSource == "devops")
+                {
+                    return DbSource.DEVOPS;
+                }
+                return DbSource.NONE;
+            }
+        }
+
+        public string DisplayedDatabaseSource 
+        {
+            get
+            {
+                switch(dbSource)
+                {
+                    case DbSource.DEVOPS:
+                        return "devops adatforrás.";
+                        break;
+                    case DbSource.LOCALHOST:
+                        return "localhost adatforrás.";
+                        break;
+                    case DbSource.NONE:
+                        return "beépített teszt adatok.";
+                        break;
+                    default:
+                        return "";
+                }
+            }  
+        }
+
         public DatabaseSourceViewModel()
         {
             repoDatabaseSources = new DatabaseSources();
-            displayedDatabaseSource = new ObservableCollection<string>(repoDatabaseSources.GetAllDatabaseSources());
+            displayedDatabaseSources = new ObservableCollection<string>(repoDatabaseSources.GetAllDatabaseSources());
         }
     }
 }
