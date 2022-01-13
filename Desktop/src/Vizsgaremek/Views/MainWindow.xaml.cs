@@ -31,6 +31,9 @@ namespace Vizsgaremek
             mainWindowViewModel = new MainWindowViewModel();
             databaseSourceViewModel = new DatabaseSourceViewModel();
             mainWindowViewModel.SelectedSource = databaseSourceViewModel.DisplayedDatabaseSource;
+
+            databaseSourceViewModel.ChangeDatabaseSource += DatabaseSourceViewModel_ChangeDatabaseSource;
+
             InitializeComponent();
             this.DataContext = mainWindowViewModel;
             // Statikus osztály a Navigate
@@ -40,6 +43,12 @@ namespace Vizsgaremek
             WelcomePage welcomePage = new WelcomePage();
             // Megjelenítjük a WelcomePage-t
             Navigate.Navigation(welcomePage);
+        }
+
+        private void DatabaseSourceViewModel_ChangeDatabaseSource(object sender, EventArgs e)
+        {
+            DatabaseSourceEventArg dsea = (DatabaseSourceEventArg) e;
+            mainWindowViewModel.SelectedSource = dsea.DatabaseSource;
         }
 
         /// <summary>
