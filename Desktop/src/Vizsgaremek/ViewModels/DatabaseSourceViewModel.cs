@@ -51,11 +51,11 @@ namespace Vizsgaremek.ViewModels
             }
         }
 
-        public string DisplayedDatabaseSource 
+        public string DisplayedDatabaseSource
         {
             get
             {
-                switch(dbSource)
+                switch (dbSource)
                 {
                     case DbSource.DEVOPS:
                         return "devops adatforrás.";
@@ -66,7 +66,7 @@ namespace Vizsgaremek.ViewModels
                     default:
                         return "";
                 }
-            }  
+            }
         }
 
         public event EventHandler ChangeDatabaseSource;
@@ -86,5 +86,6 @@ namespace Vizsgaremek.ViewModels
             if (ChangeDatabaseSource != null)
                 ChangeDatabaseSource.Invoke(this, dsea);
         }
+
     }
 }
